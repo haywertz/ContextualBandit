@@ -1,1 +1,1 @@
-# ContextualBandit
+Contextual Bandit for Real-Time Optimization
