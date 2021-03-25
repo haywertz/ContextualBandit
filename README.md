@@ -12,5 +12,3 @@ Given the Context Vector, Sampled Weights Vector and Number of Climbing Steps, M
 For each Climbing Step, I am looking to select a random content piece to Optimize and Selecting the Variation of that content piece and ultimately the layouts that perform best and have the Highest Reward. 
 My overall main idea is to decouple the training, the bayesian updating, and thompson sampling with a nested greedy hill climbing with random restarts to create a more resilient infrastructure. 
 I am looking to schedule training with a CRON job every hour for the Bayesian Updating of the feedback from the people who visit the site.
-
-Here is the Paper that I am directly looking to Implement: https://arxiv.org/pdf/1810.09558.pdf
